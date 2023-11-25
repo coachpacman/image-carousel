@@ -1,3 +1,4 @@
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -12,6 +13,26 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+.card {
+  width: 50%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: space-around;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.chevron {
+  font-size: 50pt;
 }
 
 a {

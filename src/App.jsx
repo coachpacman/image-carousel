@@ -10,11 +10,9 @@ function App() {
     <>
       <h1>Image Carousel</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <FontAwesomeIcon icon={faChevronLeft} />
-        <FontAwesomeIcon icon={faChevronRight} />
+        <FontAwesomeIcon className="chevron" icon={faChevronLeft} />
+        <img src='./public/hari-panicker-2t28IxSTqF4-unsplash.jpg'></img>
+        <FontAwesomeIcon className="chevron" icon={faChevronRight} />
       </div>
 
     </>
